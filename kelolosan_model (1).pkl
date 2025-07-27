@@ -1,2 +1,2 @@
 import joblib
-joblib.dump(nb, 'model_nb.pkl')
+return joblib.load('model_nb.pkl')
